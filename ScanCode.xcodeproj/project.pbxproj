@@ -16,9 +16,61 @@
 		5DF30D9117146F3300355645 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF30D9017146F3300355645 /* Default.png */; };
 		5DF30D9317146F3300355645 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF30D9217146F3300355645 /* Default@2x.png */; };
 		5DF30D9517146F3300355645 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF30D9417146F3300355645 /* Default-568h@2x.png */; };
-		5DF30D9817146F3300355645 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF30D9717146F3300355645 /* ViewController.m */; };
+		5DF30D9817146F3300355645 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5DF30D9717146F3300355645 /* ViewController.mm */; };
 		5DF30D9B17146F3300355645 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF30D9917146F3300355645 /* ViewController.xib */; };
+		5DF30DAA17146F5A00355645 /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF30DA717146F4F00355645 /* libZXingWidget.a */; };
+		5DF30DE1171471E100355645 /* libqrencoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF30DDE171471C600355645 /* libqrencoder.a */; };
+		5DF30DE91714749900355645 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF30DE81714749900355645 /* AudioToolbox.framework */; };
+		5DF30DEA171474B600355645 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF30DE41714725700355645 /* libiconv.dylib */; };
+		5DF30DEC17147BD700355645 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF30DEB17147BD700355645 /* CoreMedia.framework */; };
+		5DF30DEE17147BE600355645 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF30DED17147BE600355645 /* AVFoundation.framework */; };
+		5DF30DF017147BFC00355645 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF30DEF17147BFC00355645 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF30DA617146F4F00355645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF30DA117146F4F00355645 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		5DF30DA817146F4F00355645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF30DA117146F4F00355645 /* ZXingWidget.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D60398D13DF7CAD006F4B51;
+			remoteInfo = ZXingTests;
+		};
+		5DF30DAB17146F5E00355645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF30DA117146F4F00355645 /* ZXingWidget.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ZXingWidget;
+		};
+		5DF30DDD171471C600355645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF30DCF171471C600355645 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9672D35713BD662F0002B0E2;
+			remoteInfo = qrencoder;
+		};
+		5DF30DDF171471C600355645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF30DCF171471C600355645 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9621844115431DBA00447877;
+			remoteInfo = QRCodeEncoderDemo;
+		};
+		5DF30DE2171471EA00355645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF30DCF171471C600355645 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9672D35613BD662F0002B0E2;
+			remoteInfo = qrencoder;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5DF30D7B17146F3300355645 /* ScanCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,8 +87,16 @@
 		5DF30D9217146F3300355645 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5DF30D9417146F3300355645 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5DF30D9617146F3300355645 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5DF30D9717146F3300355645 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5DF30D9717146F3300355645 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		5DF30D9A17146F3300355645 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5DF30DA117146F4F00355645 /* ZXingWidget.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidget.xcodeproj; path = zxing/iphone/ZXingWidget/ZXingWidget.xcodeproj; sourceTree = SOURCE_ROOT; };
+		5DF30DCF171471C600355645 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = QRCodeEncoderObjectiveCAtGithub.xcodeproj; sourceTree = "<group>"; };
+		5DF30DE41714725700355645 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		5DF30DE61714729800355645 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5DF30DE81714749900355645 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5DF30DEB17147BD700355645 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5DF30DED17147BE600355645 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5DF30DEF17147BFC00355645 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +104,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF30DF017147BFC00355645 /* CoreVideo.framework in Frameworks */,
+				5DF30DEE17147BE600355645 /* AVFoundation.framework in Frameworks */,
+				5DF30DEC17147BD700355645 /* CoreMedia.framework in Frameworks */,
+				5DF30DEA171474B600355645 /* libiconv.dylib in Frameworks */,
+				5DF30DE91714749900355645 /* AudioToolbox.framework in Frameworks */,
+				5DF30DE1171471E100355645 /* libqrencoder.a in Frameworks */,
+				5DF30DAA17146F5A00355645 /* libZXingWidget.a in Frameworks */,
 				5DF30D7F17146F3300355645 /* UIKit.framework in Frameworks */,
 				5DF30D8117146F3300355645 /* Foundation.framework in Frameworks */,
 				5DF30D8317146F3300355645 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +123,12 @@
 		5DF30D7217146F3300355645 = {
 			isa = PBXGroup;
 			children = (
+				5DF30DEF17147BFC00355645 /* CoreVideo.framework */,
+				5DF30DED17147BE600355645 /* AVFoundation.framework */,
+				5DF30DEB17147BD700355645 /* CoreMedia.framework */,
+				5DF30DE81714749900355645 /* AudioToolbox.framework */,
+				5DF30DE61714729800355645 /* AssetsLibrary.framework */,
+				5DF30DE41714725700355645 /* libiconv.dylib */,
 				5DF30D8417146F3300355645 /* ScanCode */,
 				5DF30D7D17146F3300355645 /* Frameworks */,
 				5DF30D7C17146F3300355645 /* Products */,
@@ -83,10 +156,12 @@
 		5DF30D8417146F3300355645 /* ScanCode */ = {
 			isa = PBXGroup;
 			children = (
+				5DF30DB8171471C600355645 /* ThirdParty */,
+				5DF30DA117146F4F00355645 /* ZXingWidget.xcodeproj */,
 				5DF30D8D17146F3300355645 /* AppDelegate.h */,
 				5DF30D8E17146F3300355645 /* AppDelegate.m */,
 				5DF30D9617146F3300355645 /* ViewController.h */,
-				5DF30D9717146F3300355645 /* ViewController.m */,
+				5DF30D9717146F3300355645 /* ViewController.mm */,
 				5DF30D9917146F3300355645 /* ViewController.xib */,
 				5DF30D8517146F3300355645 /* Supporting Files */,
 			);
@@ -107,6 +182,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5DF30DA217146F4F00355645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF30DA717146F4F00355645 /* libZXingWidget.a */,
+				5DF30DA917146F4F00355645 /* ZXingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF30DB8171471C600355645 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5DF30DB9171471C600355645 /* QRCodeEncoder */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		5DF30DB9171471C600355645 /* QRCodeEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				5DF30DCF171471C600355645 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */,
+			);
+			path = QRCodeEncoder;
+			sourceTree = "<group>";
+		};
+		5DF30DD0171471C600355645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF30DDE171471C600355645 /* libqrencoder.a */,
+				5DF30DE0171471C600355645 /* QRCodeEncoderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +230,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				5DF30DE3171471EA00355645 /* PBXTargetDependency */,
+				5DF30DAC17146F5E00355645 /* PBXTargetDependency */,
 			);
 			name = ScanCode;
 			productName = ScanCode;
@@ -146,12 +257,53 @@
 			mainGroup = 5DF30D7217146F3300355645;
 			productRefGroup = 5DF30D7C17146F3300355645 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5DF30DD0171471C600355645 /* Products */;
+					ProjectRef = 5DF30DCF171471C600355645 /* QRCodeEncoderObjectiveCAtGithub.xcodeproj */;
+				},
+				{
+					ProductGroup = 5DF30DA217146F4F00355645 /* Products */;
+					ProjectRef = 5DF30DA117146F4F00355645 /* ZXingWidget.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5DF30D7A17146F3300355645 /* ScanCode */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5DF30DA717146F4F00355645 /* libZXingWidget.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidget.a;
+			remoteRef = 5DF30DA617146F4F00355645 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5DF30DA917146F4F00355645 /* ZXingTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ZXingTests.octest;
+			remoteRef = 5DF30DA817146F4F00355645 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5DF30DDE171471C600355645 /* libqrencoder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libqrencoder.a;
+			remoteRef = 5DF30DDD171471C600355645 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5DF30DE0171471C600355645 /* QRCodeEncoderDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QRCodeEncoderDemo.app;
+			remoteRef = 5DF30DDF171471C600355645 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5DF30D7917146F3300355645 /* Resources */ = {
@@ -175,11 +327,24 @@
 			files = (
 				5DF30D8B17146F3300355645 /* main.m in Sources */,
 				5DF30D8F17146F3300355645 /* AppDelegate.m in Sources */,
-				5DF30D9817146F3300355645 /* ViewController.m in Sources */,
+				5DF30D9817146F3300355645 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DF30DAC17146F5E00355645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXingWidget;
+			targetProxy = 5DF30DAB17146F5E00355645 /* PBXContainerItemProxy */;
+		};
+		5DF30DE3171471EA00355645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = qrencoder;
+			targetProxy = 5DF30DE2171471EA00355645 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5DF30D8717146F3300355645 /* InfoPlist.strings */ = {
@@ -258,8 +423,14 @@
 		5DF30D9F17146F3300355645 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanCode/ScanCode-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./zxing/iphone/ZXingWidget/Classes/**",
+					./zxing/cpp/core/src,
+					./ScanCode/ThirdParty/QRCodeEncoder/QRCodeEncoderObjectiveCAtGithub,
+				);
 				INFOPLIST_FILE = "ScanCode/ScanCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -269,8 +440,14 @@
 		5DF30DA017146F3300355645 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScanCode/ScanCode-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./zxing/iphone/ZXingWidget/Classes/**",
+					./zxing/cpp/core/src,
+					./ScanCode/ThirdParty/QRCodeEncoder/QRCodeEncoderObjectiveCAtGithub,
+				);
 				INFOPLIST_FILE = "ScanCode/ScanCode-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
