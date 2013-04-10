@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ZXingWidgetController.h>
 
-
-@interface ViewController : UIViewController<ZXingDelegate>
+@interface ViewController : UIViewController
 
 @end
